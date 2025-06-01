@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root{
+    background-color: #1e2939 ;
+}
+@layer utilities {
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+  }
+
+  html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
