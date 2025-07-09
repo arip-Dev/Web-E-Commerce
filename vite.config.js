@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Web-E-Commerce/', // Adjust the base path as needed
 })
