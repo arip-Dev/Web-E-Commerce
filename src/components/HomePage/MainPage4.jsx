@@ -1,4 +1,4 @@
-import Gambar1 from './assets/Gambar1.png';
+import Gambar1 from '../../assets/Gambar1.png';
 
 function MainPage4() {
   return (
