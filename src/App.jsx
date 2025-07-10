@@ -9,7 +9,7 @@ import Products from "./components/Products";
 
 function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepages />} />
@@ -19,8 +19,7 @@ function App() {
         <Route path="/Contactpage" element={<ContactSection />} />
         <Route path="/products" element={<Products/>} />
       </Routes>
-    </Router>
-
+    </>
   );
 }
 
