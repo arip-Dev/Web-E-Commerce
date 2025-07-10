@@ -1,10 +1,10 @@
-import CardFurniture from "../Card-furniture";
+import Gambar1 from './assets/Gambar1.png';
 
 function MainPage4() {
   return (
     <div className="bg-[#FFF9E5] flex w-full overflow-hidden">
       <div className="flex justify-center min-w-[65%] max-w-[65%]">
-        <img className="w-xl" src=".\src\assets\Gambar1.png"></img>
+        <img className="w-xl" src={Gambar1}/>
       </div>
       <div className="flex flex-col items-center mr-10 text-black justify-center text-center w-full">
         <p>

@@ -1,3 +1,5 @@
+import Gambar1 from './assets/Gambar1.png';
+
 function MainPage() {
   return (
 <div className="bg-[#FBEBB5] flex justify-center items-center h-screen top-0 w-full overflow-hidden">
@@ -10,7 +12,7 @@ function MainPage() {
           <a href="" className="text-black">Shop Now</a>
         </h1>
       </div>
-      <img src="src\assets\Gambar1.png" alt="Furniture" className="w-2/5 mt-24 mr-20" />
+      <img src={Gambar1} alt="Furniture" className="w-2/5 mt-24 mr-20" />
   </div>
 </div>
 
