@@ -5,9 +5,7 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    if (pathname === '/Pageproduct') {
-      window.scrollTo(0, 0);
-    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [pathname]);
 
   return null;
