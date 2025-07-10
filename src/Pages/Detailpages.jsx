@@ -31,11 +31,11 @@ const { product, loading } = UseproductID(id);
       <div className="bg-gray-100 dark:bg-gray-800 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-4">
-            <button className="btn rounded-4xl bg-white text-black border-none">
-              <Link to="/Shoppage" className="text-blue-600 hover:underline">
+            <Link to="/Shoppage" className="text-blue-600 hover:underline">
+              <button className="btn rounded-4xl bg-white text-black border-none">
                 &larr; Kembali ke Toko
-              </Link>
-            </button>
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col md:flex-row -mx-4 bg-white p-6 rounded-lg shadow-md">
             
